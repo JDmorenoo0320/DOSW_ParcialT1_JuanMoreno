@@ -15,3 +15,20 @@ c) Justificacion: ya que este patron es una "fabrica" por decirlo asi que crea t
 a) nombre del patron: Abstract factory
 b) tipo de patron: Creacional
 c) Justificacion: debido a que este patron nos permite crear familias de objectos que sean similares entre si, aqui todo lo que se reserva tienen aspectos en comun como ubicacion, capacidad, tiempo de reserva, etc.
+
+## 3. requerimientos
+
+### funcionales
+
+Silabinfo tiene que tener la posibilidad de:
+
+1. manejar distintos tipos de reserva dependiendo el lugar y quien lo solicita.
+2. gestionar el tiempo de cada reserva.
+3. eliminar reservas anteriores.
+
+### no funcionales 
+
+Silabinfo debe:
+
+1. Manejar los colores representativos de la decanatura de ingenieria de sistemas.
+2. Gestionar la disponibilidad de operacion.
