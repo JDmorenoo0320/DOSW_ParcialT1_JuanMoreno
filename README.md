@@ -37,6 +37,20 @@ Silabinfo debe:
 
 ### Caso Manejar distintos tipos de reservas
 ![CasoUso1](DOSW-ParcialT1/docs/images/CasoUso1.png)
+#### caso de uso
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-01 |
+| **Título** | Confirmar eliminacion de reserva |
+| **Descripción** | Como profesor de ingenieria de sistemas, quiero gestionar mis distintas reservas del dia, para organizar mi tiempo en base a que horas tengo reservas.|
+
 
 ### Caso eliminar una reserva
 ![CasoUso2](DOSW-ParcialT1/docs/images/CasoUso2.png)
+
+#### caso de uso
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-02 |
+| **Título** | Confirmar eliminacion de reserva |
+| **Descripción** | Como monitor de sistemas, quiero eliminar una reserva en la sala de estudio a las 5:30 pm, para hacer otra reserva en un salon de clases a esa misma hora.|
