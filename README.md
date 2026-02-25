@@ -24,7 +24,7 @@ Silabinfo tiene que tener la posibilidad de:
 
 1. manejar distintos tipos de reserva dependiendo el lugar y quien lo solicita. (Patron de diseño)
 2. gestionar el tiempo de cada reserva.
-3. eliminar reservas anteriores.
+3. eliminar reservas anteriores, vencidas o canceladas con su respectiva razon.
 
 ### no funcionales 
 
@@ -32,3 +32,25 @@ Silabinfo debe:
 
 1. Manejar los colores representativos de la decanatura de ingenieria de sistemas.
 2. Gestionar la disponibilidad de operacion.
+
+# 4. Casos de uso
+
+### Caso Manejar distintos tipos de reservas
+![CasoUso1](DOSW-ParcialT1/docs/images/CasoUso1.png)
+#### caso de uso
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-01 |
+| **Título** | Confirmar eliminacion de reserva |
+| **Descripción** | Como profesor de ingenieria de sistemas, quiero gestionar mis distintas reservas del dia, para organizar mi tiempo en base a que horas tengo reservas.|
+
+
+### Caso eliminar una reserva
+![CasoUso2](DOSW-ParcialT1/docs/images/CasoUso2.png)
+
+#### caso de uso
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-02 |
+| **Título** | Confirmar eliminacion de reserva |
+| **Descripción** | Como monitor de sistemas, quiero eliminar una reserva en la sala de estudio a las 5:30 pm, para hacer otra reserva en un salon de clases a esa misma hora.|
