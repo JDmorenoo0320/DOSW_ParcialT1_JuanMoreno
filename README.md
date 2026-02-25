@@ -32,3 +32,10 @@ Silabinfo debe:
 
 1. Manejar los colores representativos de la decanatura de ingenieria de sistemas.
 2. Gestionar la disponibilidad de operacion.
+
+# 4. Casos de uso
+
+### Caso Manejar distintos tipos de reservas
+![CasoUso1](DOSW-ParcialT1/docs/images/CasoUso1.png)
+
+![CasoUso2](DOSW-ParcialT1/docs/images/CasoUso2.png)
