@@ -41,7 +41,7 @@ Silabinfo debe:
 | Campo | Descripción |
 |------|-------------|
 | **ID** | HU-01 |
-| **Título** | Confirmar eliminacion de reserva |
+| **Título** | Gestionar reservas |
 | **Descripción** | Como profesor de ingenieria de sistemas, quiero gestionar mis distintas reservas del dia, para organizar mi tiempo en base a que horas tengo reservas.|
 
 
@@ -78,3 +78,52 @@ Silabinfo debe:
 | **Flujo principal** | 1. El actor selecciona la opcion de consular saldo <br>2. El sistema recupera la info de las cuentas asociadas (id del cliente) <br>3. El sistema muestra en la pantalla el numero de la cuenta y el saldo disponible|
 | **Diagrama de caso de uso** | ![CasoUso1](DOSW-ParcialT1/docs/images/CasoUso2.png) |
 | **Poscondiciones** | Se espera como resultado que el usuario pueda eliminar su reserva una vez explicado el porque de su eliminacion o cancelacion. |
+
+
+# 6. descomposicion de un requermiento
+
+### Epica
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | EP-01 |
+| **Título** | Gestionar las reservas.|
+| **Descripción** | Porque debe tener la capacidad que el usuario o administrador gestione sus reservas con su locaclizacion, tipo, duracion y hora |
+| **Stakeholder** | Estudiantes, profesores, Monitores, administrativos, administradores, la decanatura de sistemas, la universidad. |
+
+### historia de uso
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-01 |
+| **Título** | Gestionar reservas del dia |
+| **Descripción** | Como profesor de ingenieria de sistemas, quiero gestionar mis distintas reservas del dia, para organizar mi tiempo en base a que horas tengo reservas.|
+
+### Tareas
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-01 |
+| **Título** | Permitir reservar una o mas veces en el dia |
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | Desarrollar una funcion que permita reservar por un mismo usuario una o mas veces uno o varios espacios de trabajos a distintas horas del dia. |
+| **Tareas requisito** | Ninguna|
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-02 |
+| **Título** | visualizar las reservas pendientes o futuras |
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | Diseñar e implementar la seccion donde el usuario pueda observar sus reservas proximas. |
+| **Tareas requisito** | TR-01 |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-03 |
+| **Título** | Confirmacion visual de reservar una sala |
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | implementar un mensaje o comprobante tipo verificacion visual que confirme la reserva fue exitosa. |
+| **Tareas requisito** | TR-01, TR-02 |
+
+
+
