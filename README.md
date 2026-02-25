@@ -38,4 +38,5 @@ Silabinfo debe:
 ### Caso Manejar distintos tipos de reservas
 ![CasoUso1](DOSW-ParcialT1/docs/images/CasoUso1.png)
 
+### Caso eliminar una reserva
 ![CasoUso2](DOSW-ParcialT1/docs/images/CasoUso2.png)
