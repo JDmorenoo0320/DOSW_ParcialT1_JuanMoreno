@@ -24,7 +24,7 @@ Silabinfo tiene que tener la posibilidad de:
 
 1. manejar distintos tipos de reserva dependiendo el lugar y quien lo solicita. (Patron de diseño)
 2. gestionar el tiempo de cada reserva.
-3. eliminar reservas anteriores.
+3. eliminar reservas anteriores, vencidas o canceladas con su respectiva razon.
 
 ### no funcionales 
 
