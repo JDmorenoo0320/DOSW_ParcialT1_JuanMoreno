@@ -125,5 +125,12 @@ Silabinfo debe:
 | **Descripción** | implementar un mensaje o comprobante tipo verificacion visual que confirme la reserva fue exitosa. |
 | **Tareas requisito** | TR-01, TR-02 |
 
+# 7. diagrama clase
+
+![DiagramClass](DOSW-ParcialT1/docs/images/DiagramClass.png) 
+
+no logre terminar el diag
+se uso los principios SOLID de S, Single responsability ya que cada clase se maneja una sola cosay si hubiera hecho codigo, la idea era O, Open/close, ya que se podia ampliar sin modificar 
+
 
 
