@@ -132,5 +132,5 @@ Silabinfo debe:
 no logre terminar el diag
 se uso los principios SOLID de S, Single responsability ya que cada clase se maneja una sola cosay si hubiera hecho codigo, la idea era O, Open/close, ya que se podia ampliar sin modificar 
 
-
+.
 
