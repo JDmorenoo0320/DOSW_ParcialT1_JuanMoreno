@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # DOSW_ParcialT1_JuanMoreno
 primer parcial de ciclos Juan Moreno
 
@@ -134,3 +135,7 @@ se uso los principios SOLID de S, Single responsability ya que cada clase se man
 
 
 
+=======
+# DOSW_ParcialT1_JuanMoreno
+primer parcial de ciclos Juan Moreno
+>>>>>>> Stashed changes
